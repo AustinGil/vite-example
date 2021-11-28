@@ -1,0 +1,12 @@
+{
+  "name": "some-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "my-plugiin": "file:..",
+    "vite": "^2.6.13"
+  }
+}
