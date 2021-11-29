@@ -1,6 +1,6 @@
 export default () => {
   return {
-    name: 'my-example',
+    name: 'my-plugin',
     load(id) {
       console.log('load', id);
     },

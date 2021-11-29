@@ -1,5 +1,12 @@
 {
-  "name": "vite-example",
+  "name": "some-project",
   "version": "0.0.0",
-  "main": "index.js"
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "my-plugiin": "file:./my-plugin",
+    "vite": "^2.6.13"
+  }
 }
